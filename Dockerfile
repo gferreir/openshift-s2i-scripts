@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/rhscl/httpd-24-rhel7
+FROM rhel7:latest
 EXPOSE 8080
 LABEL io.openshift.expose-services="8080:http"
 RUN yum install httpd -y && \
