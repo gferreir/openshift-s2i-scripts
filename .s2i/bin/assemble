@@ -1,5 +1,4 @@
 #!/bin/bash
 
-cp -Rf /tmp/src/*.html ./
 DATE=`date "+%Y-%m-%d"`
-echo "Page built on $DATE" >> ./index.html
+echo "Page built on $DATE" >> /var/www/html/index.html
